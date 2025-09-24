@@ -1,4 +1,4 @@
-package condition;
+package core;
 
 public class Operator {
 

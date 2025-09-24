@@ -1,6 +1,6 @@
 package condition.comparison;
 
-import condition.Operator;
+import core.Operator;
 
 public class Greater extends Operator {
     public Greater(String propertyName, String number) {

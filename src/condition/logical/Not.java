@@ -1,7 +1,7 @@
 package condition.logical;
 
-import condition.Logical;
-import condition.Operator;
+import core.Logical;
+import core.Operator;
 
 public class Not extends Logical {
     public Not(Operator operand) {

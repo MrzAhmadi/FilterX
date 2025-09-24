@@ -1,7 +1,7 @@
 package condition.logical;
 
-import condition.Logical;
-import condition.Operator;
+import core.Logical;
+import core.Operator;
 import java.util.List;
 
 public class And extends Logical {

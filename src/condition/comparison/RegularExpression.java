@@ -1,6 +1,6 @@
 package condition.comparison;
 
-import condition.Operator;
+import core.Operator;
 
 public class RegularExpression extends Operator {
     public RegularExpression(String propertyName, String expression) {

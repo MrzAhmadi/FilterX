@@ -1,6 +1,6 @@
 package condition.comparison;
 
-import condition.Operator;
+import core.Operator;
 
 public class Equals extends Operator {
     public Equals(String propertyName, String term) {

@@ -1,6 +1,6 @@
 package condition.comparison;
 
-import condition.Operator;
+import core.Operator;
 
 public class Exist extends Operator {
     public Exist(String propertyName) {

@@ -1,6 +1,6 @@
 package condition.literals;
 
-import condition.Operator;
+import core.Operator;
 
 public class True extends Operator {
 }

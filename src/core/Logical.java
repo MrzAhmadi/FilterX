@@ -1,4 +1,4 @@
-package condition;
+package core;
 
 import java.util.*;
 

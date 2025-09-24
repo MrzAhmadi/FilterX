@@ -1,6 +1,6 @@
 package condition.comparison;
 
-import condition.Operator;
+import core.Operator;
 
 public class Less extends Operator {
     public Less(String propertyName, String number) {
