@@ -1,27 +1,28 @@
 package core;
 
-public class Operator {
+import java.util.Map;
+import java.util.Objects;
 
-    private String propertyName;
-    private String condition;
+public abstract class Operator implements Filter {
+    protected final String property;
+    protected final String operand;
 
-    public Operator() {
+    protected Operator() {
+        this.property = null;
+        this.operand = null;
     }
 
-    public Operator(String propertyName) {
-        this.propertyName = propertyName;
+    protected Operator(String property) {
+        this.property = Objects.requireNonNull(property, "property");
+        this.operand = null;
     }
 
-    public Operator(String propertyName, String condition) {
-        this.propertyName = propertyName;
-        this.condition = condition;
+    protected Operator(String property, String operand) {
+        this.property = Objects.requireNonNull(property, "property");
+        this.operand = Objects.requireNonNull(operand, "operand");
     }
 
-    public String getPropertyName() {
-        return propertyName;
-    }
-
-    public String getCondition() {
-        return condition;
+    protected String get(Map<String, String> r) {
+        return r.get(property);
     }
 }
