@@ -1,4 +1,4 @@
-package core;
+package io.github.mrzahmadi.filterx.core;
 
 import java.util.*;
 

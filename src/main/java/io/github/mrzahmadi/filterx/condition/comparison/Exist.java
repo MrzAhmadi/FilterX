@@ -1,6 +1,6 @@
-package condition.comparison;
+package io.github.mrzahmadi.filterx.condition.comparison;
 
-import core.Operator;
+import io.github.mrzahmadi.filterx.core.Operator;
 
 import java.util.Map;
 

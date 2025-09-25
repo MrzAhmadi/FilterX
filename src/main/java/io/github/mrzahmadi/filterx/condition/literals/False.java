@@ -1,6 +1,6 @@
-package condition.literals;
+package io.github.mrzahmadi.filterx.condition.literals;
 
-import core.Operator;
+import io.github.mrzahmadi.filterx.core.Operator;
 
 import java.util.Map;
 

@@ -1,7 +1,7 @@
-package condition.logical;
+package io.github.mrzahmadi.filterx.condition.logical;
 
-import core.Filter;
-import core.Logical;
+import io.github.mrzahmadi.filterx.core.Filter;
+import io.github.mrzahmadi.filterx.core.Logical;
 import java.util.Map;
 
 public class And extends Logical {

@@ -1,8 +1,8 @@
-package core;
+package io.github.mrzahmadi.filterx.core;
 
-import condition.comparison.*;
-import condition.logical.*;
-import condition.literals.*;
+import io.github.mrzahmadi.filterx.condition.comparison.*;
+import io.github.mrzahmadi.filterx.condition.logical.*;
+import io.github.mrzahmadi.filterx.condition.literals.*;
 
 public final class Filters {
   public static Operator eq(String p, String v)       { return new Equals(p, v); }
